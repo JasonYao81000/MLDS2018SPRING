@@ -64,11 +64,18 @@ There are three parts in HW1.
     python3 MNIST.py
     python3 Plot.py
     ```
+    * MNIST_ACC.png
+    ![MNIST_ACC.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_3/1_Random_Label/MNIST_ACC.png)
+    * MNIST_LOSS.png
+    ![MNIST_LOSS.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_3/1_Random_Label/MNIST_LOSS.png)
 * Number of parameters v.s. Generalization
     ```
     cd hw1/hw1_3/2_Parameters/
     python3 MNIST.py
     python3 Plot.py
     ```
+    * MNIST_ACC.png
     ![MNIST_ACC.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_3/2_Parameters/MNIST_ACC.png)
+    * MNIST_LOSS.png
+    ![MNIST_LOSS.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_3/2_Parameters/MNIST_LOSS.png)
 * Flatness v.s. Generalization
