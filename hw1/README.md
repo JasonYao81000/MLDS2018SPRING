@@ -147,11 +147,13 @@ There are three parts in HW1.
         python3 plot_data_CIFAR.py
         ```
         1. MNIST
+
             ![MNIST_loss.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_3/3.2_sensitivity/picture/MNIST_loss.png)
 
             ![MNIST_acc.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_3/3.2_sensitivity/picture/MNIST_acc.png)
         
         2. CIFAR-10
+
             ![CIFAR_loss.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_3/3.2_sensitivity/picture/CIFAR_loss.png)
 
             ![CIFAR_acc.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_3/3.2_sensitivity/picture/CIFAR_acc.png)
