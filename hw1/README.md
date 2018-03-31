@@ -54,8 +54,21 @@ There are three parts in HW1.
 # 2. Optimization:
 * Visualize the optimization process.
     ```
-    Todo.
+    cd hw1/hw1_2/Visualize_the_optimization_process/
+    python3 Train_MNIST.py    # Rename MNIST_0_*.hdf5 to MNIST_7_*.hdf5
+    python3 Train_MNIST.py    # Rename MNIST_0_*.hdf5 to MNIST_6_*.hdf5
+    python3 Train_MNIST.py    # Rename MNIST_0_*.hdf5 to MNIST_5_*.hdf5
+    python3 Train_MNIST.py    # Rename MNIST_0_*.hdf5 to MNIST_4_*.hdf5
+    python3 Train_MNIST.py    # Rename MNIST_0_*.hdf5 to MNIST_3_*.hdf5
+    python3 Train_MNIST.py    # Rename MNIST_0_*.hdf5 to MNIST_2_*.hdf5
+    python3 Train_MNIST.py    # Rename MNIST_0_*.hdf5 to MNIST_1_*.hdf5
+    python3 Train_MNIST.py
+    python3 Visualize_Optimization.py
     ```
+    ![vis_opt_one_pca.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_2/Visualize_the_optimization_process/picture/vis_opt_one_pca.png)
+    
+    ![vis_opt_pca.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_2/Visualize_the_optimization_process/picture/vis_opt_pca.png)
+    
 * Observe gradient norm during training.
     1. SINC
     ```
