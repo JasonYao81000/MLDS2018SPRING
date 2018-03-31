@@ -141,5 +141,16 @@ There are three parts in HW1.
     * Part 2
         ```
         cd hw1/hw1_3/3.2_sensitivity/
-        Todo.        
+        python3 MNIST_sensitivity.py
+        python3 plot_data.py
+        python3 CIFAR_vgg.py
+        python3 plot_data_CIFAR.py
         ```
+        ![MNIST_loss.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_3/3.2_sensitivity/picture/MNIST_loss.png)
+        
+        ![MNIST_acc.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_3/3.2_sensitivity/picture/MNIST_acc.png)
+        
+        ![CIFAR_loss.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_3/3.2_sensitivity/picture/CIFAR_loss.png)
+        
+        ![CIFAR_acc.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_3/3.2_sensitivity/picture/CIFAR_acc.png)
+        
