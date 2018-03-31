@@ -75,8 +75,12 @@ There are three parts in HW1.
     ```
 * What happens when gradient is almost zero?
     ```
-    Todo.
+    cd hw1/hw1_2/Gradient_is_Almost_Zero/
+    python3 gradient_epoch.py
+    python3 Calculate_minimal_ratio.py
+    python3 Plot.py
     ```
+    ![Loss_MinimumRatio.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_2/Gradient_is_Almost_Zero/Loss_MinimumRatio.png)
 # 3. Generalization
 * Can network fit random labels?
     ```
