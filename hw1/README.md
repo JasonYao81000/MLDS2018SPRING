@@ -53,6 +53,10 @@ There are three parts in HW1.
     
 # 2. Optimization:
 * Visualize the optimization process.
+    ```
+    Todo.
+    ```
+* Observe gradient norm during training.
     1. SINC
     ```
     cd hw1/hw1_2/Observe_Gradient_Norm_During_Training/SINC
@@ -69,10 +73,6 @@ There are three parts in HW1.
     ```
     ![gradientNorm.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_2/Observe_Gradient_Norm_During_Training/MNIST/gradientNorm.png)
     
-* Observe gradient norm during training.
-    ```
-    Todo.
-    ```
 * What happens when gradient is almost zero?
     ```
     cd hw1/hw1_2/Gradient_is_Almost_Zero/
@@ -81,6 +81,7 @@ There are three parts in HW1.
     python3 Plot.py
     ```
     ![Loss_MinimumRatio.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_2/Gradient_is_Almost_Zero/Loss_MinimumRatio.png)
+    
 # 3. Generalization
 * Can network fit random labels?
     ```
