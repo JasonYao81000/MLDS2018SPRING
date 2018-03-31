@@ -157,3 +157,16 @@ There are three parts in HW1.
             ![CIFAR_loss.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_3/3.2_sensitivity/picture/CIFAR_loss.png)
 
             ![CIFAR_acc.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_3/3.2_sensitivity/picture/CIFAR_acc.png)
+    
+    * Bonus
+        ```
+        cd hw1/hw1_3/bonus/
+        python3 MNIST.py        # Train 20 models with different batch size.
+        python3 sharpness.py    # Evaluate sharpness of each model.
+        python3 Plot.py
+        ```
+        
+        ![Loss.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_3/bonus/Loss.png)
+        
+        ![Accuracy.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_3/bonus/Accuracy.png)
+        
