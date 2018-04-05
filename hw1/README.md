@@ -97,7 +97,7 @@ There are three parts in HW1.
     
 * Bouns
     ~~~
-    cd hw1/hw1_2/bouns/
+    cd hw1/hw1_2/bonus/
     python3 perturb_para.py
     python3 plot_begin_to_end.py
     ~~~
