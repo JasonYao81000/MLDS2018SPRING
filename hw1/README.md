@@ -95,6 +95,18 @@ There are three parts in HW1.
     ```
     ![Loss_MinimumRatio.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_2/Gradient_is_Almost_Zero/Loss_MinimumRatio.png)
     
+* Bouns
+    ~~~
+    cd hw1/hw1_2/bouns/
+    python3 perturb_para.py
+    python3 plot_begin_to_end.py
+    ~~~
+    ![perturb.png]
+(https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_2/bonus/perturb.png)
+
+   ![loss_change.png]
+(https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_2/bonus/loss_change.png)
+    
 # 3. Generalization
 * Can network fit random labels?
     ```
