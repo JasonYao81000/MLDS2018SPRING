@@ -101,11 +101,9 @@ There are three parts in HW1.
     python3 perturb_para.py
     python3 plot_begin_to_end.py
     ~~~
-    ![perturb.png]
-(https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_2/bonus/perturb.png)
+    ![perturb.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_2/bonus/perturb.png)
 
-   ![loss_change.png]
-(https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_2/bonus/loss_change.png)
+   ![loss_change.png](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/hw1_2/bonus/loss_change.png)
     
 # 3. Generalization
 * Can network fit random labels?
