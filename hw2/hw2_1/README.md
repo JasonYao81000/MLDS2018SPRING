@@ -1,7 +1,6 @@
 # MLDS2018SPRING/hw2/hw2_1
 # Requirements
 ```
-tensorboard==1.6.0
 tensorflow-gpu==1.6.0
 numpy==1.14.2
 pandas==0.22.0
