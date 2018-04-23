@@ -13,7 +13,7 @@ python3 infer.py ./MLDS_hw2_1_data/testing_data ./testset_output.txt
 ```
 If you just wanna infer without training, please run hw2_seq2seq.sh or download trained model by yourself.
 ```
-bash ./hw2_seq2seq.sh testing_data testset_output.txt
+bash ./hw2_seq2seq.sh ./MLDS_hw2_1_data/testing_data testset_output.txt
 ```
 or
 ```
