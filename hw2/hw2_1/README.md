@@ -9,7 +9,7 @@ python3 train.py ./MLDS_hw2_1_data/testing_data/feat/ ./MLDS_hw2_1_data/testing_
 ```
 # Inference on Testing Set
 ```
-wget -O model7204-203.data-00000-of-00001 https://www.dropbox.com/s/9g01n49gtzkil1h/model7204-203.data-00000-of-00001?dl=1 
+wget -O ./models/model7204-203.data-00000-of-00001 https://www.dropbox.com/s/9g01n49gtzkil1h/model7204-203.data-00000-of-00001?dl=1 
 python3 infer.py ./MLDS_hw2_1_data/testing_data ./testset_output.txt
 ```
 # Evaluate BLEU@1
