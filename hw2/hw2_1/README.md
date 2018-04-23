@@ -11,6 +11,7 @@ python3 data_preprocessing.py ./MLDS_hw2_1_data/training_data/feat/ ./MLDS_hw2_1
 ```
 # Train Seq2Seq Model
 ```
+rm ./models/*
 python3 train.py ./MLDS_hw2_1_data/testing_data/feat/ ./MLDS_hw2_1_data/testing_label.json ./output_testset.txt
 ```
 # Inference on Testing Set
