@@ -24,3 +24,11 @@ python3 infer.py ./MLDS_hw2_1_data/testing_data ./testset_output.txt
 ```
 python3 bleu_eval.py testset_output.txt
 ```
+# Performance 
+| Method                       | BLEU@1   |
+| ---------------------------- |:--------:|
+| Without Attention            | 0.7010   |
+| Luong Attention              | 0.7054   |
+| Luong Attention with scale   | 0.6977   |
+| Bahdanau Attention           | 0.6965   |
+| Bahdanau Attention with norm | 0.7204   |
