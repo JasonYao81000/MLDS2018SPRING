@@ -3,6 +3,8 @@
 ```
 tensorflow-gpu==1.6.0
 numpy==1.14.2
+pandas==0.22.0
+gensim==3.4.0
 ```
 # Data Preprocessing
 ```
