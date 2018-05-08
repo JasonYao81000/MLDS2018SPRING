@@ -46,7 +46,7 @@ python3 main.py ../../test_input.txt ../../test_output.txt
 ```
 # 8. Results 
 | Pre-train W2V | Beam Search (size) | Perplexity | Correlation Score |
-|:-------------:|:------------------:|:----------:|:-----------------:|
+|:-------------:|:------------------:| ----------:| -----------------:|
 | No            | No                 | 6.96       | 0.38256           |
 | No            | 7                  | 11.83      | 0.49207           |
 | Yes           | No                 | 9.26       | 0.45864           |
