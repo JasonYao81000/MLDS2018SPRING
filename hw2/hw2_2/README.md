@@ -6,6 +6,15 @@ numpy==1.14.2
 pandas==0.22.0
 gensim==3.4.0
 ```
+# Bulid word-based dictonary
+Bulid word-based dictonary with min_count=20 and add TA's vocab.
+```
+python3 build_filter_words.py ./clr_conversation.txt ./vocab.txt ./word_vocab.txt
+```
+
+
+
+
 # Data Preprocessing
 ```
 python3 data_preprocessing.py ./MLDS_hw2_1_data/training_data/feat/ ./MLDS_hw2_1_data/training_label.json
