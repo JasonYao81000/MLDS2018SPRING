@@ -45,10 +45,7 @@ cd mlds_hw2_2_data/evaluation
 python3 main.py ../../test_input.txt ../../test_output.txt
 ```
 # 8. Performance 
-| Method                       | BLEU@1   |
-| ---------------------------- |:--------:|
-| Without Attention            | 0.7010   |
-| Luong Attention              | 0.7054   |
-| Luong Attention with scale   | 0.6977   |
-| Bahdanau Attention           | 0.6965   |
-| Bahdanau Attention with norm | 0.7204   |
+| Pre-train W2V | Beam Search (size) | Perplexity | Correlation Score |
+| ------------- |:------------------:|:----------:|:-----------------:|
+| No            | No                 | 6.96       | 0.38256           |
+| No            | 7                  | 11.83      | 0.49207           |
