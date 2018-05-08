@@ -44,7 +44,7 @@ Please download TA's baseline model before evaluate our model.
 cd mlds_hw2_2_data/evaluation
 python3 main.py ../../test_input.txt ../../test_output.txt
 ```
-# 8. Performance 
+# 8. Results 
 | Pre-train W2V | Beam Search (size) | Perplexity | Correlation Score |
 | ------------- |:------------------:|:----------:|:-----------------:|
 | No            | No                 | 6.96       | 0.38256           |
