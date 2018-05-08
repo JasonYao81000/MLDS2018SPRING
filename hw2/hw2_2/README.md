@@ -51,7 +51,7 @@ python3 main.py ../../test_input.txt ../../test_output.txt
 | No            | 7                  | 11.83      | 0.49207           |
 | Yes           | No                 | 9.26       | 0.45864           |
 | Yes           | 7                  | 11.83      | 0.53626           |
-# 9. More Results For Comparision
+# 9. More Results for Beam Size Comparision
 | Pre-train W2V | Beam Search (size) | Perplexity | Correlation Score |
 |:-------------:|:------------------:| ----------:| -----------------:|
 | Yes           | No                 | 9.26       | 0.45864           |
