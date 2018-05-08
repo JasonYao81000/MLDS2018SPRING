@@ -39,7 +39,7 @@ If you just wanna infer without training, please run hw2_seq2seq.sh.
 bash ./hw2_seq2seq.sh ./test_input.txt ./test_output.txt
 ```
 # 7. Evaluate Perplexity And Correlation Score
-Please download TA's baseline model before evaluate our model.
+Please download TA's baseline model before evaluating our model.
 ```
 cd mlds_hw2_2_data/evaluation
 python3 main.py ../../test_input.txt ../../test_output.txt
