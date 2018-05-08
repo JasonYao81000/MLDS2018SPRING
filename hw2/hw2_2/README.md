@@ -28,24 +28,21 @@ python3 train_w2v.py ./w2v_corpus.txt ./w2vModel_256_w5_mc1_iter300.bin
 # 5. Train Seq2Seq Model
 ```
 rm ./models/*
-python3 train.py ./MLDS_hw2_1_data/testing_data/feat/ ./MLDS_hw2_1_data/testing_label.json ./output_testset.txt
+python3 train.py
 ```
 # 6. Inference on Testing Set
 ```
-python3 infer.py ./MLDS_hw2_1_data/testing_data ./testset_output.txt
+python3 infer.py ./test_input.txt ./test_output.txt
 ```
-If you just wanna infer without training, please run hw2_seq2seq.sh or download trained model by yourself.
+If you just wanna infer without training, please run hw2_seq2seq.sh.
 ```
-bash ./hw2_seq2seq.sh ./MLDS_hw2_1_data/testing_data testset_output.txt
+bash ./hw2_seq2seq.sh ./test_input.txt ./test_output.txt
 ```
-or
+# 7. Evaluate Perplexity And Correlation Score
+Please download TA's baseline model before evaluate our model.
 ```
-wget -O ./models/model7204-203.data-00000-of-00001 https://www.dropbox.com/s/9g01n49gtzkil1h/model7204-203.data-00000-of-00001?dl=1 
-python3 infer.py ./MLDS_hw2_1_data/testing_data ./testset_output.txt
-```
-# 7. Evaluate BLEU@1
-```
-python3 bleu_eval.py testset_output.txt
+cd mlds_hw2_2_data/evaluation
+python3 main.py ../../test_input.txt ../../test_output.txt
 ```
 # 8. Performance 
 | Method                       | BLEU@1   |
