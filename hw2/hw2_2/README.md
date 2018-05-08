@@ -3,6 +3,9 @@
 ```
 tensorflow-gpu==1.6.0
 numpy==1.14.2
+numpy==1.14.2
+numpy==1.14.2
+numpy==1.14.2
 ```
 # Data Preprocessing
 ```
