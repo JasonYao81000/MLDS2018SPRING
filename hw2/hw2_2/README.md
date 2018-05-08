@@ -11,8 +11,10 @@ Bulid word-based dictonary with min_count=20 and add TA's vocab.
 ```
 python3 build_filter_words.py ./clr_conversation.txt ./vocab.txt ./word_vocab.txt
 ```
-
-
+# Filter training data with <UNK> token.
+```
+python3 filter.py ./clr_conversation.txt ./word_vocab.txt ./filtered_clr_conversation.txt
+```
 
 
 # Data Preprocessing
