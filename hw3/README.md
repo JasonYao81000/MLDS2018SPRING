@@ -22,6 +22,11 @@ python3.6 baseline.py --input ../samples/gan_original.png
 ```
 bash run_cgan.sh
 ```
+Test on baseline model.
+```
+cd gan-baseline
+python3.6 baseline.py --input ../samples/cgan_original.png
+```
 # 3-3. Style Transfer
 ```
 bash extra_run.sh
