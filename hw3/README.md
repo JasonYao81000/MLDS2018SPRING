@@ -16,13 +16,16 @@ opencv-python==3.4.0.12
 bash run_gan.sh
 ```
 |./samples/gan_original.png|
-|:-------------------------:|
+|:------------------------:|
 |<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/samples/gan_original.png" width="100%">|
 ## Test on Baseline Model
 ```
 cd gan-baseline
 python3.6 baseline.py --input ../samples/gan_original.png
 ```
+|./gan-baseline/baseline_result_gan.png|
+|:------------------------------------:|
+|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/gan-baseline/baseline_result_gan.png" width="100%">|
 ## Compare Our Model (WGAN_GP) with WGAN (50 epochs)
 See more details for [WGAN_GP](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw3/hw3_1/results/WGAN_GP_Anime_64_62), [WGAN](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw3/hw3_1/results/WGAN_Anime_64_62).
 
@@ -66,6 +69,9 @@ bash run_cgan.sh ./AnimeDataset/testing_tags.txt
 cd gan-baseline
 python3.6 baseline.py --input ../samples/cgan_original.png
 ```
+|./gan-baseline/baseline_result_cgan.png|
+|:-------------------------------------:|
+|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/gan-baseline/baseline_result_cgan.png" width="100%">|
 
 # 3-3. Style Transfer
 ```
