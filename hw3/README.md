@@ -32,22 +32,25 @@ python3.6 baseline.py --input ../samples/gan_original.png
 
 ## Training tips for improvement
 ### 1. Tip 1: Normalize the inputs 
-- normalize the images between -1 and 1 
+- Normalize the images between -1 and 1 
 - Tanh as the last layer of the generator output 
 ### 2. Tip 3: Use a spherical Z 
 - Don't sample from a Uniform distribution 
 - Sample from a gaussian distribution 
 - When doing interpolations, do the interpolation via a great circle, rather than a straight line from point A to point B 
 - Tom White's Sampling Generative Networks ref code https://github.com/dribnet/plat has more details 
-3. **Tip 4** BatchNorm 
-..* Construct different mini-batches for real and fake, i.e. each mini-batch needs to contain only all real images or all generated images. 
-..* When batchnorm is not an option use instance normalization (for each sample, subtract mean and divide by standard deviation). 
-4. **Tip 5** Avoid Sparse Gradients: ReLU, MaxPool 
-..* the stability of the GAN game suffers if you have sparse gradients 
-..* LeakyReLU = good (in both G and D) 
-..* For Downsampling, use: Average Pooling, Conv2d + stride 
-..* For Upsampling, use: PixelShuffle, ConvTranspose2d + stride 
-5. **Tip 14** Train discriminator more (sometimes) 
+### 3. Tip 4: BatchNorm 
+- Construct different mini-batches for real and fake, i.e. each mini-batch needs to contain only all real images or all generated images. 
+- When batchnorm is not an option use instance normalization (for each sample, subtract mean and divide by standard deviation). 
+### 4. Tip 5: Avoid Sparse Gradients: ReLU, MaxPool 
+- The stability of the GAN game suffers if you have sparse gradients
+- LeakyReLU = good (in both G and D)
+- For Downsampling, use: Average Pooling, Conv2d + stride
+- For Upsampling, use: PixelShuffle, ConvTranspose2d + stride
+  - PixelShuffle: https://arxiv.org/abs/1609.05158
+### 5. Tip 14: Train discriminator more (sometimes) 
+- Especially when you have noise
+- Hard to find a schedule of number of D iterations vs G iterations
 
 # 3-2. Text-to-Image Generation
 ## Run bash to generate images.
