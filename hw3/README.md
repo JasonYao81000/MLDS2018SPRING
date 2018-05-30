@@ -59,16 +59,19 @@ See more details for [WGAN_GP](https://github.com/JasonYao81000/MLDS2018SPRING/t
 ## Without Tip 1: Normalize the inputs 
 - Normalize the images between 0 and 1 
 - Sigmoid as the last layer of the generator output 
+
 |./hw3_1/results/WGAN_GP_WO_1_Anime_64_62/WGAN_GP_WO_1.gif|
 |:---------------------------------------------------------:|
 |<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_WO_1_Anime_64_62/WGAN_GP_WO_1.gif" width="100%">|
 ## Without Tip 3: Use a spherical Z 
 - Change sampled Z from *np.random.normal(0, np.exp(-1 / np.pi))* to *np.random.uniform(-1, 1)* .
+
 |./hw3_1/results/WGAN_GP_WO_3_Anime_64_62/WGAN_GP_WO_3.gif|
 |:---------------------------------------------------------:|
 |<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_WO_3_Anime_64_62/WGAN_GP_WO_3.gif" width="100%">|
 ## Without Tip 14: Train discriminator more (sometimes) 
 - Change *self.d_iter, self.g_iter* from *(2, 1)* to *(1, 1)* .
+
 |./hw3_1/results/WGAN_GP_WO_14_Anime_64_62/WGAN_GP_WO_14.gif|
 |:---------------------------------------------------------:|
 |<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_WO_14_Anime_64_62/WGAN_GP_WO_14.gif" width="100%">|
