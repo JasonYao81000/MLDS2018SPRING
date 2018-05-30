@@ -57,14 +57,7 @@ See more details for [WGAN_GP](https://github.com/JasonYao81000/MLDS2018SPRING/t
 - Hard to find a schedule of number of D iterations vs G iterations
 
 ## Without Tip 3: Use a spherical Z 
-Change
-```
-np.random.normal(0, np.exp(-1 / np.pi))
-```
-To
-```
-np.random.uniform(-1, 1)
-```
+- Change sampled Z from *np.random.normal(0, np.exp(-1 / np.pi))* to *np.random.uniform(-1, 1)* .
 # 3-2. Text-to-Image Generation
 ## Run bash to Generate Images
 ```
