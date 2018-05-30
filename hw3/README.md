@@ -31,7 +31,11 @@ python3.6 baseline.py --input ../samples/gan_original.png
 |![WGAN_GP.gif](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_Anime_64_62/WGAN_GP.gif)|
 
 ## Training tips for improvement
-
+  1. [Tip 1] Normalize the images between -1 and 1.
+  2. [Tip 3] Use a spherical Z
+  3. [Tip 4] BatchNorm
+  4. [Tip 5] Avoid Sparse Gradients: ReLU, MaxPool
+  5. [Tip 14] Train discriminator more (sometimes)
 # 3-2. Text-to-Image Generation
 ## Run bash to generate images.
 ```
