@@ -11,22 +11,22 @@ opencv-python==3.4.0.12
 ```
 
 # 3-1. Image Generation
-## Run bash to generate images.
+## Run bash to Generate Images
 ```
 bash run_gan.sh
 ```
-## Test on baseline model.
+## Test on Baseline Model
 ```
 cd gan-baseline
 python3.6 baseline.py --input ../samples/gan_original.png
 ```
-## Compare our model (WGAN_GP) with WGAN (50 epochs)
+## Compare Our Model (WGAN_GP) with WGAN (50 epochs)
 
 |      WGAN_GP       |        WGAN        |
 |:------------------:|:------------------:|
 |<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_Anime_64_62/WGAN_GP.gif" width="100%">|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_Anime_64_62/WGAN.gif" width="100%">|
 
-## Training tips for improvement
+## [Training Tips for Improvement](https://github.com/soumith/ganhacks)
 ### Tip 1: Normalize the inputs 
 - Normalize the images between -1 and 1 
 - Tanh as the last layer of the generator output 
@@ -49,11 +49,11 @@ python3.6 baseline.py --input ../samples/gan_original.png
 - Hard to find a schedule of number of D iterations vs G iterations
 
 # 3-2. Text-to-Image Generation
-## Run bash to generate images.
+## Run bash to Generate Images
 ```
 bash run_cgan.sh
 ```
-## Test on baseline model.
+## Test on Baseline Model
 ```
 cd gan-baseline
 python3.6 baseline.py --input ../samples/cgan_original.png
