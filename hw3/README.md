@@ -56,6 +56,10 @@ See more details for [WGAN_GP](https://github.com/JasonYao81000/MLDS2018SPRING/t
 - Especially when you have noise
 - Hard to find a schedule of number of D iterations vs G iterations
 
+## Without Tip 1: Normalize the inputs 
+- Normalize the images between 0 and 1 
+- Sigmoid as the last layer of the generator output 
+
 ## Without Tip 3: Use a spherical Z 
 - Change sampled Z from *np.random.normal(0, np.exp(-1 / np.pi))* to *np.random.uniform(-1, 1)* .
 
