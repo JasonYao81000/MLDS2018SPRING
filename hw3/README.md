@@ -60,9 +60,9 @@ See more details for [WGAN_GP](https://github.com/JasonYao81000/MLDS2018SPRING/t
 - Normalize the images between 0 and 1 
 - Sigmoid as the last layer of the generator output 
 
-|./hw3_1/results/WGAN_GP_WO_1_Anime_64_62/WGAN_GP_WO_1.gif|
-|:---------------------------------------------------------:|
-|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_WO_1_Anime_64_62/WGAN_GP_WO_1.gif" width="100%">|
+| With Tip 1, 3, 4, 5, 14 | Without Tip 1 |
+|:-----------------------:|:-------------:|
+|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_Anime_64_62/WGAN_GP.gif" width="100%">|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_WO_1_Anime_64_62/WGAN_GP_WO_1.gif" width="100%">|
 ## Without Tip 3: Use a spherical Z 
 - Change sampled Z from *np.random.normal(0, np.exp(-1 / np.pi))* to *np.random.uniform(-1, 1)* .
 
