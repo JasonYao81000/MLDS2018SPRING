@@ -24,7 +24,7 @@ python3.6 baseline.py --input ../samples/gan_original.png
 
 |Train WGAN 50 epochs|
 |:------------------:|
-|![WGAN.gif](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_Anime_64_62/WGAN.gif | width=100)|
+|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_Anime_64_62/WGAN.gif" width="50%">|
 
 |Train WGAN_GP 50 epochs|
 |:------------------:|
