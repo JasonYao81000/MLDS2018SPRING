@@ -21,7 +21,7 @@ cd gan-baseline
 python3.6 baseline.py --input ../samples/gan_original.png
 ```
 ## Compare Our Model (WGAN_GP) with WGAN (50 epochs)
-See more details for [WGAN_GP](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw3/hw3_1/results/WGAN_GP_Anime_64_62), [WGAN](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw3/hw3_1/results/WGAN_Anime_64_62)
+See more details for [WGAN_GP](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw3/hw3_1/results/WGAN_GP_Anime_64_62), [WGAN](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw3/hw3_1/results/WGAN_Anime_64_62).
 
 |      WGAN_GP       |        WGAN        |
 |:------------------:|:------------------:|
