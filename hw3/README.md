@@ -63,7 +63,7 @@ bash run_cgan.sh ./AnimeDataset/testing_tags.txt
 ```
 |./samples/cgan_original.png| Testing Tags |
 |:-------------------------:|:------------:|
-|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/samples/cgan_original.png" width="100%">| blue hair blue eyes<br>blue hair green eyes<br>blue hair red eyes<br>green hair blue eyes<br>green hair red eyes |
+|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/samples/cgan_original.png" width="100%">| blue hair blue eyes<br><br><br>blue hair green eyes<br><br><br>blue hair red eyes<br><br><br>green hair blue eyes<br><br><br>green hair red eyes |
 ## Test on Baseline Model
 ```
 cd gan-baseline
