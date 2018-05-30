@@ -17,7 +17,12 @@ Test on baseline model.
 cd gan-baseline
 python3.6 baseline.py --input ../samples/gan_original.png
 ```
+## 3-1.3 Compare our model (WGAN_GP) with WGAN
+**Train WGAN 50 epochs**
 ![WGAN.gif](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_Anime_64_62/WGAN.gif)
+**Train WGAN_GP 50 epochs**
+![WGAN_GP.gif](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_Anime_64_62/WGAN_GP.gif)
+
 # 3-2. Text-to-Image Generation
 ```
 bash run_cgan.sh
