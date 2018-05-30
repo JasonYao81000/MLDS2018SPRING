@@ -9,7 +9,6 @@ matplotlib==2.2.2
 opencv-python==3.4.0.12
 ```
 # 3-1. Image Generation
-Train WGAN_GP with 10 epochs, and then infer.
 ```
 bash run_gan.sh
 ```
@@ -18,6 +17,7 @@ Test on baseline model.
 cd gan-baseline
 python3.6 baseline.py --input ../samples/gan_original.png
 ```
+![WGAN.gif](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_Anime_64_62/WGAN.gif)
 # 3-2. Text-to-Image Generation
 ```
 bash run_cgan.sh
