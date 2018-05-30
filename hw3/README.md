@@ -31,14 +31,14 @@ python3.6 baseline.py --input ../samples/gan_original.png
 |![WGAN_GP.gif](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_Anime_64_62/WGAN_GP.gif)|
 
 ## Training tips for improvement
-1. **Tip 1** Normalize the inputs 
+### 1. Tip 1: Normalize the inputs 
 - normalize the images between -1 and 1 
 - Tanh as the last layer of the generator output 
-2. **Tip 3** Use a spherical Z 
-..* Don't sample from a Uniform distribution 
-..* Sample from a gaussian distribution 
-..* When doing interpolations, do the interpolation via a great circle, rather than a straight line from point A to point B 
-..* Tom White's Sampling Generative Networks ref code https://github.com/dribnet/plat has more details 
+### 2. Tip 3: Use a spherical Z 
+- Don't sample from a Uniform distribution 
+- Sample from a gaussian distribution 
+- When doing interpolations, do the interpolation via a great circle, rather than a straight line from point A to point B 
+- Tom White's Sampling Generative Networks ref code https://github.com/dribnet/plat has more details 
 3. **Tip 4** BatchNorm 
 ..* Construct different mini-batches for real and fake, i.e. each mini-batch needs to contain only all real images or all generated images. 
 ..* When batchnorm is not an option use instance normalization (for each sample, subtract mean and divide by standard deviation). 
