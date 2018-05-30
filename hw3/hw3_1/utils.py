@@ -10,6 +10,8 @@ import numpy as np
 from time import gmtime, strftime
 from six.moves import xrange
 import matplotlib.pyplot as plt
+# Force matplotlib to not use any Xwindows backend.
+plt.switch_backend('agg')
 import os, gzip
 
 # from skimage import io
@@ -19,50 +21,68 @@ import tensorflow as tf
 import tensorflow.contrib.slim as slim
 
 def load_Anime(dataset_filepath):
-    data_dir = dataset_filepath
+    tag_csv_filename = dataset_filepath.replace('images/', 'tags.csv')
+    tag_dict = ['orange hair', 'white hair', 'aqua hair', 'gray hair', 'green hair', 'red hair', 'purple hair', 
+            'pink hair', 'blue hair', 'black hair', 'brown hair', 'blonde hair', 
+            'gray eyes', 'black eyes', 'orange eyes', 'pink eyes', 'yellow eyes',
+            'aqua eyes', 'purple eyes', 'green eyes', 'brown eyes', 'red eyes', 'blue eyes']
+
+    tag_csv = open(tag_csv_filename, 'r').readlines()
+    # print(len(tag_csv))
+
+    id_label = []
+    for line in tag_csv:
+        id, tags = line.split(',')
+        label = np.zeros(len(tag_dict))
+        
+        for i in range(len(tag_dict)):
+            if tag_dict[i] in tags:
+                label[i] = 1
+        
+        # Keep images with hair or eyes.
+        if np.sum(label) == 2 or np.sum(label) == 1:
+            id_label.append((id, label))
+
 
     # Load file name of images.
-    image_file_list = os.listdir(data_dir)
+    image_file_list = []
+    for image_id, _ in id_label:
+        image_file_list.append(image_id + '.jpg')
 
-    # # Sample an image.
-    # sample_image = cv2.imread(os.path.join(data_dir, image_file_list[0]))
-    # print ('sample_image.shape: ', sample_image.shape)
     # Resize image to 64x64.
     image_height = 64
     image_width = 64
     image_channel = 3
-    # sample_image = cv2.resize(sample_image, (image_width, image_height))
-    # print ('sample_image.shape: ', sample_image.shape)
 
-    # # Save sample image to image file.
-    # io.imsave('sample_image.jpg', sample_image.astype(np.uint8))
-
-    # image_file_list = image_file_list[:512]
-    # Allocate memory space of images.
-    images = np.zeros((len(image_file_list), image_height, image_width, image_channel))
+    # Allocate memory space of images and labels.
+    images = np.zeros((len(image_file_list), image_width, image_height, image_channel))
+    labels = np.zeros((len(image_file_list), len(tag_dict)))
     print ('images.shape: ', images.shape)
+    print ('labels.shape: ', labels.shape)
 
     print ('Loading images to numpy array...')
+    data_dir = dataset_filepath
     for index, filename in enumerate(image_file_list):
         images[index] = cv2.cvtColor(
             cv2.resize(
                 cv2.imread(os.path.join(data_dir, filename), cv2.IMREAD_COLOR), 
                 (image_width, image_height)), 
                 cv2.COLOR_BGR2RGB)
-
-    # # Save sample image to image file.
-    # io.imsave('./samples/sample_image.jpg', images[10].astype(np.uint8))
+        labels[index] = id_label[index][1]
     
-    # images = images[:, :, :, 0].reshape(images.shape[0], images.shape[1], images.shape[2], 1)
-
+    print ('Random shuffling images and labels...')
     np.random.seed(9487)
-    np.random.shuffle(images)
+    indice = np.array(range(len(image_file_list)))
+    np.random.shuffle(indice)
+    images = images[indice]
+    labels = labels[indice]
 
+    print ('[Tip 1] Normalize the images between -1 and 1.')
     # Tip 1. Normalize the inputs
     #   Normalize the images between -1 and 1.
     #   Tanh as the last layer of the generator output.
-    # return (images / 127.5) - 1
-    return images / 255.
+    return (images / 127.5) - 1, labels
+    # return images / 255., labels
 
 def load_mnist(dataset_name):
     data_dir = os.path.join("./data", dataset_name)
@@ -119,8 +139,8 @@ def get_image(image_path, input_height, input_width, resize_height=64, resize_wi
 
 def save_images(images, size, image_path):
     # return imsave(inverse_transform(images), size, image_path)
-    # gen_imgs = inverse_transform(images)
-    gen_imgs = images
+    gen_imgs = inverse_transform(images)
+    # gen_imgs = images
     # gen_imgs should be shape (25, 64, 64, 3)
     r, c = 5, 5
     fig, axs = plt.subplots(r, c)

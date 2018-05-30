@@ -1,0 +1,2 @@
+model_checkpoint_path: "WGAN_GP.model-28701"
+all_model_checkpoint_paths: "WGAN_GP.model-28701"

@@ -1,12 +1,12 @@
 import os
 
 ## GAN Variants
-from GAN import GAN
+# from GAN import GAN
 # from CGAN import CGAN
 # from infoGAN import infoGAN
 # from ACGAN import ACGAN
 # from EBGAN import EBGAN
-# from WGAN import WGAN
+from WGAN import WGAN
 from WGAN_GP import WGAN_GP
 # from DRAGAN import DRAGAN
 # from LSGAN import LSGAN
@@ -21,6 +21,8 @@ from utils import check_folder
 
 import tensorflow as tf
 import argparse
+
+import numpy as np
 
 """parsing and configuration"""
 def parse_args():
@@ -81,7 +83,7 @@ def main():
     # open session
     # models = [GAN, CGAN, infoGAN, ACGAN, EBGAN, WGAN, WGAN_GP, DRAGAN,
     #           LSGAN, BEGAN, VAE, CVAE]
-    models = [GAN, WGAN_GP]
+    models = [WGAN, WGAN_GP]
     with tf.Session(config=tf.ConfigProto(allow_soft_placement=True)) as sess:
         # declare instance for GAN
 
