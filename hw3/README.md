@@ -36,6 +36,7 @@ python3.6 baseline.py --input ../samples/gan_original.png
   4. BatchNorm
   5. Avoid Sparse Gradients: ReLU, MaxPool
   14. Train discriminator more (sometimes)
+
 # 3-2. Text-to-Image Generation
 ## Run bash to generate images.
 ```
