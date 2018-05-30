@@ -58,6 +58,10 @@ See more details for [WGAN_GP](https://github.com/JasonYao81000/MLDS2018SPRING/t
 
 ## Without Tip 3: Use a spherical Z 
 - Change sampled Z from *np.random.normal(0, np.exp(-1 / np.pi))* to *np.random.uniform(-1, 1)* .
+
+## Without Tip 14: Train discriminator more (sometimes) 
+- Change *self.d_iter, self.g_iter* from *(2, 1)* to *(1, 1)* .
+
 # 3-2. Text-to-Image Generation
 ## Run bash to Generate Images
 ```
