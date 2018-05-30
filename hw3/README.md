@@ -20,11 +20,11 @@ bash run_gan.sh
 cd gan-baseline
 python3.6 baseline.py --input ../samples/gan_original.png
 ```
-## Compare our model (WGAN_GP) with WGAN
+## Compare our model (WGAN_GP) with WGAN (50 epochs)
 
-|Train WGAN 50 epochs|Train WGAN_GP 50 epochs|
+|      WGAN_GP       |        WGAN        |
 |:------------------:|:------------------:|
-|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_Anime_64_62/WGAN.gif" width="75%">|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_Anime_64_62/WGAN_GP.gif" width="75%">
+|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_Anime_64_62/WGAN_GP.gif" width="100%">|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_Anime_64_62/WGAN.gif" width="100%">|
 
 ## Training tips for improvement
 ### 1. Tip 1: Normalize the inputs 
