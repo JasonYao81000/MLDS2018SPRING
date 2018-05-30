@@ -21,10 +21,12 @@ cd gan-baseline
 python3.6 baseline.py --input ../samples/gan_original.png
 ```
 ## Compare our model (WGAN_GP) with WGAN
-**Train WGAN 50 epochs**
 
-![](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_Anime_64_62/WGAN.gif)
-*Train WGAN 50 epochs*
+|Train WGAN 50 epochs|
+|:------------------:|
+|![WGAN.gif](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_Anime_64_62/WGAN.gif)|
+
+**Train WGAN 50 epochs**
 
 **Train WGAN_GP 50 epochs**
 
