@@ -61,6 +61,34 @@ See more details for [WGAN_GP](https://github.com/JasonYao81000/MLDS2018SPRING/t
 ```
 bash run_cgan.sh ./AnimeDataset/testing_tags.txt
 ```
+## Testing Tags
+```
+1,blue hair blue eyes
+2,blue hair blue eyes
+3,blue hair blue eyes
+4,blue hair blue eyes
+5,blue hair blue eyes
+6,blue hair green eyes
+7,blue hair green eyes
+8,blue hair green eyes
+9,blue hair green eyes
+10,blue hair green eyes
+11,blue hair red eyes
+12,blue hair red eyes
+13,blue hair red eyes
+14,blue hair red eyes
+15,blue hair red eyes
+16,green hair blue eyes
+17,green hair blue eyes
+18,green hair blue eyes
+19,green hair blue eyes
+20,green hair blue eyes
+21,green hair red eyes
+22,green hair red eyes
+23,green hair red eyes
+24,green hair red eyes
+25,green hair red eyes
+```
 |./samples/cgan_original.png|
 |:-------------------------:|
 |<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/samples/cgan_original.png" width="100%">|
