@@ -24,7 +24,7 @@ python3.6 baseline.py --input ../samples/gan_original.png
 
 |Train WGAN 50 epochs|Train WGAN_GP 50 epochs|
 |:------------------:|:------------------:|
-|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_Anime_64_62/WGAN.gif" width="100">|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_Anime_64_62/WGAN_GP.gif" width="100">
+|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_Anime_64_62/WGAN.gif" width="75%">|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_Anime_64_62/WGAN_GP.gif" width="75%">
 
 ## Training tips for improvement
 ### 1. Tip 1: Normalize the inputs 
