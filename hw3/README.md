@@ -15,6 +15,9 @@ opencv-python==3.4.0.12
 ```
 bash run_gan.sh
 ```
+|./samples/gan_original.png|
+|:-------------------------:|
+|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/samples/gan_original.png" width="100%">|
 ## Test on Baseline Model
 ```
 cd gan-baseline
@@ -53,8 +56,11 @@ See more details for [WGAN_GP](https://github.com/JasonYao81000/MLDS2018SPRING/t
 # 3-2. Text-to-Image Generation
 ## Run bash to Generate Images
 ```
-bash run_cgan.sh
+bash run_cgan.sh ./AnimeDataset/testing_tags.txt
 ```
+|./samples/cgan_original.png|
+|:-------------------------:|
+|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/samples/cgan_original.png" width="100%">|
 ## Test on Baseline Model
 ```
 cd gan-baseline
