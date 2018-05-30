@@ -66,15 +66,15 @@ See more details for [WGAN_GP](https://github.com/JasonYao81000/MLDS2018SPRING/t
 ## Without Tip 3: Use a spherical Z 
 - Change sampled Z from *np.random.normal(0, np.exp(-1 / np.pi))* to *np.random.uniform(-1, 1)* .
 
-|./hw3_1/results/WGAN_GP_WO_3_Anime_64_62/WGAN_GP_WO_3.gif|
-|:---------------------------------------------------------:|
-|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_WO_3_Anime_64_62/WGAN_GP_WO_3.gif" width="100%">|
+| With Tip 1, 3, 4, 5, 14 | Without Tip 3 |
+|:-----------------------:|:-------------:|
+|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_Anime_64_62/WGAN_GP.gif" width="100%">|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_WO_3_Anime_64_62/WGAN_GP_WO_3.gif" width="100%">|
 ## Without Tip 14: Train discriminator more (sometimes) 
 - Change *self.d_iter, self.g_iter* from *(2, 1)* to *(1, 1)* .
 
-|./hw3_1/results/WGAN_GP_WO_14_Anime_64_62/WGAN_GP_WO_14.gif|
-|:---------------------------------------------------------:|
-|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_WO_14_Anime_64_62/WGAN_GP_WO_14.gif" width="100%">|
+| With Tip 1, 3, 4, 5, 14 | Without Tip 14 |
+|:-----------------------:|:-------------:|
+|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_Anime_64_62/WGAN_GP.gif" width="100%">|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_1/results/WGAN_GP_WO_14_Anime_64_62/WGAN_GP_WO_14.gif" width="100%">|
 
 # 3-2. Text-to-Image Generation
 ## Run bash to Generate Images
