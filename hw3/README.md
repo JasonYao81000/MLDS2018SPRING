@@ -5,7 +5,6 @@
 tensorflow-gpu==1.6.0
 numpy==1.14.2
 scipy==1.1.0
-six==1.10.0
 matplotlib==2.2.2
 opencv-python==3.4.0.12
 ```
