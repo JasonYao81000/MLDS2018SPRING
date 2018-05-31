@@ -1,14 +1,14 @@
 """
 Most codes from https://github.com/carpedm20/DCGAN-tensorflow
 """
-from __future__ import division
-import math
+# from __future__ import division
+# import math
 import random
-import pprint
+# import pprint
 import scipy.misc
 import numpy as np
-from time import gmtime, strftime
-from six.moves import xrange
+# from time import gmtime, strftime
+# from six.moves import xrange
 import matplotlib.pyplot as plt
 # Force matplotlib to not use any Xwindows backend.
 plt.switch_backend('agg')
