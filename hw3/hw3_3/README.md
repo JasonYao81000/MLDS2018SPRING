@@ -24,10 +24,8 @@
 |:------------------------:|
 |<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_3/StarGAN_result/1001110.jpg" width="100%">|
 |0101001|
-|:------------------------:|
 |<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_3/StarGAN_result/0101001.jpg" width="100%">|
 |0011111|
-|:------------------------:|
 |<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_3/StarGAN_result/0011111.jpg" width="100%">|
 
 ## UnitGAN
