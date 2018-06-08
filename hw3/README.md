@@ -96,6 +96,4 @@ python3.6 baseline.py --input ../samples/cgan_original.png
 |blue hair blue eyes<br><br><br>blue hair green eyes<br><br><br>blue hair red eyes<br><br><br>green hair blue eyes<br><br><br>green hair red eyes|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/gan-baseline/baseline_result_cgan.png" width="100%">|
 
 # 3-3. Style Transfer
-```
-bash extra_run.sh
-```
+See more details for [Style Transfer](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/hw3_3/README.md)
