@@ -22,7 +22,7 @@ tensorflow-gpu==1.6.0
   * Variance Reduction
   * Natural Policy Gradient
   * Trust Region Policy Optimization
-  * Proximal Policy Optimization
+  * **Proximal Policy Optimization** (We used)
 
 ## Testing Policy Gradient
 `$ python3.6 test.py --test_pg`
