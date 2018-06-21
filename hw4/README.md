@@ -15,7 +15,7 @@ tensorflow-gpu==1.6.0
 ## Testing Policy Gradient
 `$ python3.6 test.py --test_pg`
 
-## Rewards in 30 episodes.
+## Rewards in 30 Episodes
 ```
 ep 0, reward: 18.000000
 ep 1, reward: 17.000000
