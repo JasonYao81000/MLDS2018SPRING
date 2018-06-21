@@ -12,6 +12,13 @@ tensorflow-gpu==1.6.0
 ```
 
 # 4-1. Policy Gradient
+
+## Introduction
+* Game Playing: Pong
+* Implement an agent to play Atari games using Deep Reinforcement Learning.
+* In this homework, you are required to implement Policy Gradient.
+* The Pong environment is used in this homework.
+
 ## Testing Policy Gradient
 `$ python3.6 test.py --test_pg`
 
