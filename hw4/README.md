@@ -19,13 +19,13 @@ tensorflow-gpu==1.6.0
 * In this homework, you are required to implement Policy Gradient.
 * The Pong environment is used in this homework.
 * Improvements to Policy Gradient: 
- * Variance Reduction
- * Natural Policy Gradient
- * Trust Region Policy Optimization
- * **Proximal Policy Optimization** (We used)
+  * Variance Reduction
+  * Natural Policy Gradient
+  * Trust Region Policy Optimization
+  * **Proximal Policy Optimization** (We used)
 * Training Hint
- * Reward normalization (More stable)
- * Action space reduction (Only up and down)
+  * Reward normalization (More stable)
+  * Action space reduction (Only up and down)
 
 ## Baseline
 * Getting averaging reward in 30 episodes over **3** in **Pong**
@@ -88,29 +88,29 @@ Mean: 16.466666666666665
 * In this homework, you are required to implement Deep Q-Learning (DQN).
 * The Breakout environment is used in this homework.
 * Improvements to DQN: 
- * **Double Q-Learning** (We used)
- * **Dueling Network** (We used)
- * Prioritized Replay Memory
- * Noisy DQN
- * Distributional DQN
+  * **Double Q-Learning** (We used)
+  * **Dueling Network** (We used)
+  * Prioritized Replay Memory
+  * Noisy DQN
+  * Distributional DQN
 * Training Hint
- * The action should act ε-greedily
-  * Random action with probability ε
-  * Also in testing
- * Linearly decline ε from 1.0 to some small value, say 0.025
-  * Decline per step
-  * Randomness is for exploration, agent is weak at start
- * Hyperparameters
-  * Replay Memory Size 10000
-  * Perform Update Current Network Step 4
-  * Perform Update Target Network Step 1000
-  * Learning Rate 1.5e-4
-  * Batch Size 32
+  * The action should act ε-greedily
+    * Random action with probability ε
+    * Also in testing
+  * Linearly decline ε from 1.0 to some small value, say 0.025
+    * Decline per step
+    * Randomness is for exploration, agent is weak at start
+  * Hyperparameters
+    * Replay Memory Size 10000
+    * Perform Update Current Network Step 4
+    * Perform Update Target Network Step 1000
+    * Learning Rate 1.5e-4
+    * Batch Size 32
 
 ## Baseline
 * Getting averaging reward in 100 episodes over **40** in **Breakout**
 * With OpenAI’s Atari wrapper & reward clipping
- * We will unclip the reward when testing
+  * We will unclip the reward when testing
 
 ## Testing Deep Q Learning
 `$ python3 test.py --test_dqn`
