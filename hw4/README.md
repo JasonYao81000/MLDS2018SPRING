@@ -26,7 +26,12 @@ tensorflow-gpu==1.6.0
 * Training Hint
  * Reward normalization (More stable)
  * Action space reduction (Only up and down)
- 
+
+## Baseline
+* Getting averaging reward in 30 episodes over **3** in **Pong**
+* Without OpenAI’s Atari wrapper & reward clipping
+* Improvements to Policy Gradient are allowed
+
 ## Testing Policy Gradient
 `$ python3.6 test.py --test_pg`
 
@@ -76,5 +81,36 @@ Mean: 16.466666666666665
 <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/avg_reward_pg_ppo_2lines.png" width="100%">
 
 # 4-2. Deep Q Learning
+
+## Introduction
+* Game Playing: Breakout
+* Implement an agent to play Atari games using Deep Reinforcement Learning.
+* In this homework, you are required to implement Deep Q-Learning (DQN).
+* The Breakout environment is used in this homework.
+* Improvements to DQN: 
+ * **Double Q-Learning** (We used)
+ * **Dueling Network** (We used)
+ * Prioritized Replay Memory
+ * Noisy DQN
+ * Distributional DQN
+* Training Hint
+ * The action should act ε-greedily
+  * Random action with probability ε
+  * Also in testing
+ * Linearly decline ε from 1.0 to some small value, say 0.025
+  * Decline per step
+  * Randomness is for exploration, agent is weak at start
+ * Hyperparameters
+  * Replay Memory Size 10000
+  * Perform Update Current Network Step 4
+  * Perform Update Target Network Step 1000
+  * Learning Rate 1.5e-4
+  * Batch Size 32
+
+## Baseline
+* Getting averaging reward in 100 episodes over **40** in **Breakout**
+* With OpenAI’s Atari wrapper & reward clipping
+ * We will unclip the reward when testing
+
 ## Testing Deep Q Learning
 `$ python3 test.py --test_dqn`
