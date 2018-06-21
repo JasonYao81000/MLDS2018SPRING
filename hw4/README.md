@@ -19,10 +19,10 @@ tensorflow-gpu==1.6.0
 * In this homework, you are required to implement Policy Gradient.
 * The Pong environment is used in this homework.
 * Improvements to Policy Gradient: 
-  ** Variance Reduction
-  ** Natural Policy Gradient
-  ** Trust Region Policy Optimization
-  ** Proximal Policy Optimization
+  * Variance Reduction
+  * Natural Policy Gradient
+  * Trust Region Policy Optimization
+  * Proximal Policy Optimization
 
 ## Testing Policy Gradient
 `$ python3.6 test.py --test_pg`
