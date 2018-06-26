@@ -146,3 +146,23 @@ Mean: 16.466666666666665
 
 ### Comparison (Reward v.s. Time) of Actor-Critic and A3C
 <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_time_ac%26a3c.png" width="100%">
+
+## Actor-Critic and A3C on Breakout
+
+### Learning Curve (Reward v.s. Episode) of Actor-Critic
+<!-- <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_episode_ac.png" width="100%"> -->
+
+### Learning Curve (Reward v.s. Episode) of A3C
+<!-- <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_episode_a3c.png" width="100%"> -->
+
+### Comparison (Reward v.s. Episode) of Actor-Critic and A3C
+<!-- <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_episode_ac%26a3c.png" width="100%"> -->
+
+### Learning Curve (Reward v.s. Time) of Actor-Critic
+<!-- <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_time_ac.png" width="100%"> -->
+
+### Learning Curve (Reward v.s. Time) of A3C
+<!-- <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_time_a3c.png" width="100%"> -->
+
+### Comparison (Reward v.s. Time) of Actor-Critic and A3C
+<!-- <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_time_ac%26a3c.png" width="100%"> -->
