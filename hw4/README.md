@@ -121,11 +121,11 @@ Mean: 16.466666666666665
 * Game Playing: Pong and Breakout
 * Implement an agent to play Atari games using Actor-Critic.
 * Improvements to Actor-Critic: 
-  * DDPG
-  * ACER
-  * **A3C** (We used)
-  * A2C
-  * ACKTR
+  * DDPG (Deep Deterministic Policy Gradient)
+  * ACER (Sample Efficient Actor-Critic with Experience Replay)
+  * **A3C (Asynchronous Advantage Actor-Critic)** (We used)
+  * A2C (Synchronous Advantage Actor Critic)
+  * ACKTR (Actor Critic using Kronecker-Factored Trust Region)
 
 ## Learning Curve (Reward v.s. Episode) of Actor-Critic
 <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_episode_ac.png" width="100%">
