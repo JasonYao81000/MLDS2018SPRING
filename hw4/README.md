@@ -71,13 +71,15 @@ Run 30 episodes
 Mean: 16.466666666666665
 ```
 
-## Learning Curve of Original Policy Gradient
+## Learning Curve
+
+* Learning Curve of Original Policy Gradient
 <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/avg_reward_pg.png" width="100%">
 
-## Learning Curve of Policy Gradient with Proximal Policy Optimization (PPO)
+* Learning Curve of Policy Gradient with Proximal Policy Optimization (PPO)
 <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/avg_reward_pg_ppo.png" width="100%">
 
-## Comparison of Original PG and PG with PPO
+* Comparison of Original PG and PG with PPO
 <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/avg_reward_pg_ppo_2lines.png" width="100%">
 
 # 4-2. Deep Q Learning
@@ -127,42 +129,42 @@ Mean: 16.466666666666665
   * A2C (Synchronous Advantage Actor Critic)
   * ACKTR (Actor Critic using Kronecker-Factored Trust Region)
 
-## Actor-Critic and A3C on Pong
+## Learning Curve of Actor-Critic and A3C on Pong
 
-### Learning Curve (Reward v.s. Episode) of Actor-Critic
+* Learning Curve (Reward v.s. Episode) of Actor-Critic
 <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_episode_ac.png" width="100%">
 
-### Learning Curve (Reward v.s. Episode) of A3C
+* Learning Curve (Reward v.s. Episode) of A3C
 <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_episode_a3c.png" width="100%">
 
-### Comparison (Reward v.s. Episode) of Actor-Critic and A3C
+* Comparison (Reward v.s. Episode) of Actor-Critic and A3C
 <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_episode_ac%26a3c.png" width="100%">
 
-### Learning Curve (Reward v.s. Time) of Actor-Critic
+* Learning Curve (Reward v.s. Time) of Actor-Critic
 <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_time_ac.png" width="100%">
 
-### Learning Curve (Reward v.s. Time) of A3C
+* Learning Curve (Reward v.s. Time) of A3C
 <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_time_a3c.png" width="100%">
 
-### Comparison (Reward v.s. Time) of Actor-Critic and A3C
+* Comparison (Reward v.s. Time) of Actor-Critic and A3C
 <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_time_ac%26a3c.png" width="100%">
 
-## Actor-Critic and A3C on Breakout
+## Learning Curve of Actor-Critic and A3C on Breakout
 
-### Learning Curve (Reward v.s. Episode) of Actor-Critic
+* Learning Curve (Reward v.s. Episode) of Actor-Critic
 <!-- <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_episode_ac.png" width="100%"> -->
 
-### Learning Curve (Reward v.s. Episode) of A3C
+* Learning Curve (Reward v.s. Episode) of A3C
 <!-- <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_episode_a3c.png" width="100%"> -->
 
-### Comparison (Reward v.s. Episode) of Actor-Critic and A3C
+* Comparison (Reward v.s. Episode) of Actor-Critic and A3C
 <!-- <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_episode_ac%26a3c.png" width="100%"> -->
 
-### Learning Curve (Reward v.s. Time) of Actor-Critic
+* Learning Curve (Reward v.s. Time) of Actor-Critic
 <!-- <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_time_ac.png" width="100%"> -->
 
-### Learning Curve (Reward v.s. Time) of A3C
+* Learning Curve (Reward v.s. Time) of A3C
 <!-- <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_time_a3c.png" width="100%"> -->
 
-### Comparison (Reward v.s. Time) of Actor-Critic and A3C
+* Comparison (Reward v.s. Time) of Actor-Critic and A3C
 <!-- <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/reward_time_ac%26a3c.png" width="100%"> -->
