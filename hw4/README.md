@@ -4,8 +4,21 @@
 <!--ts-->
    0. [Requirements](#4-0-requirements)
    1. [Policy Gradient](#4-1-policy-gradient)
+      * [Introduction](#introduction)
+      * [Baseline](#baseline)
+      * [Testing Policy Gradient](#testing-policy-gradient)
+      * [Rewards in 30 Episodes](#rewards-in-30-episodes)
+      * [Learning Curve](#learning-curve)
    2. [Deep Q Learning](#4-2-deep-q-learning)
+      * [Introduction](#introduction-1)
+      * [Baseline](#baseline-1)
+      * [Testing Policy Gradient](#testing-policy-gradient-1)
+      * [Rewards in 100 Episodes](#rewards-in-100-episodes)
+      * [Learning Curve](#learning-curve-1)
    3. [Actor-Critic](#4-3-actor-critic)
+      * [Introduction](#introduction-2)
+      * [Learning Curve of Actor-Critic and A3C on Pong](#learning-curve-of-actor-critic-and-a3c-on-pong)
+      * [Learning Curve of Actor-Critic and A3C on Breakout](#learning-curve-of-actor-critic-and-a3c-on-breakout)
 <!--te-->
 
 # 4-0. Requirements
