@@ -117,6 +117,33 @@ Mean: 16.466666666666665
 ## Testing Deep Q Learning
 `$ python3 test.py --test_dqn`
 
+## Rewards in 100 Episodes
+```
+ep 0, reward: 
+ep 1, reward: 
+...
+ep 99, reward: 
+Run 100 episodes
+Mean: 
+```
+
+## Learning Curve
+
+* Learning Curve of DQN
+<img src="" width="100%">
+
+* Learning Curve of Dual DQN
+<img src="" width="100%">
+
+* Learning Curve of Double DQN
+<img src="" width="100%">
+
+* Learning Curve of Double Dual DQN
+<img src="" width="100%">
+
+* Comparison of DQN, Dual DQN, Double DQN and Double Dual DQN
+<img src="" width="100%">
+
 # 4-3. Actor-Critic
 
 ## Introduction
