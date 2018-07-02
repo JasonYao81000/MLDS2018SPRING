@@ -33,6 +33,9 @@ tensorflow-gpu==1.6.0
 * Improvements to Policy Gradient are allowed
 
 ## Testing Policy Gradient
+```python
+python3.6 test.py --test_pg
+```
 `$ python3.6 test.py --test_pg`
 
 ## Rewards in 30 Episodes
