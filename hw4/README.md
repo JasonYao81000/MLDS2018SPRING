@@ -2,7 +2,10 @@
 
 # Table of Contents
 <!--ts-->
-   * [Requirements](#-4-0.-Requirements)
+   0. [Requirements](#4-0-requirements)
+   1. [Policy Gradient](#4-1-policy-gradient)
+   2. [Deep Q Learning](#4-2-deep-q-learning)
+   3. [Actor-Critic](#4-3-actor-critic)
 <!--te-->
 
 # 4-0. Requirements
