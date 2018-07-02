@@ -24,8 +24,8 @@ tensorflow-gpu==1.6.0
   - [ ] Trust Region Policy Optimization
   - [x] **Proximal Policy Optimization**
 * Training Hint
-  * Reward normalization (More stable)
-  * Action space reduction (Only up and down)
+  - [x] Reward normalization (More stable)
+  - [x] Action space reduction (Only up and down)
 
 ## Baseline
 * Getting averaging reward in 30 episodes over **3** in **Pong**
@@ -90,24 +90,24 @@ Mean: 16.466666666666665
 * In this homework, you are required to implement Deep Q-Learning (DQN).
 * The Breakout environment is used in this homework.
 * Improvements to DQN: 
-  * **Double Q-Learning** (We used)
-  * **Dueling Network** (We used)
-  * Prioritized Replay Memory
-  * Noisy DQN
-  * Distributional DQN
+  - [x] **Double Q-Learning**
+  - [x] **Dueling Network**
+  - [ ] Prioritized Replay Memory
+  - [ ] Noisy DQN
+  - [ ] Distributional DQN
 * Training Hint
   * The action should act ε-greedily
-    * Random action with probability ε
-    * Also in testing
+    - [x] Random action with probability ε
+    - [ ] Also in testing
   * Linearly decline ε from 1.0 to some small value, say 0.025
-    * Decline per step
-    * Randomness is for exploration, agent is weak at start
+    - [x] Decline per step
+    - [x] Randomness is for exploration, agent is weak at start
   * Hyperparameters
-    * Replay Memory Size 10000
-    * Perform Update Current Network Step 4
-    * Perform Update Target Network Step 1000
-    * Learning Rate 1.5e-4
-    * Batch Size 32
+    - [x] Replay Memory Size 10000
+    - [x] Perform Update Current Network Step 4
+    - [x] Perform Update Target Network Step 1000
+    - [x] Learning Rate 1e-4
+    - [x] Batch Size 32
 
 ## Baseline
 * Getting averaging reward in 100 episodes over **40** in **Breakout**
@@ -150,11 +150,11 @@ Mean:
 * Game Playing: Pong and Breakout
 * Implement an agent to play Atari games using Actor-Critic.
 * Improvements to Actor-Critic: 
-  * DDPG (Deep Deterministic Policy Gradient)
-  * ACER (Sample Efficient Actor-Critic with Experience Replay)
-  * **A3C (Asynchronous Advantage Actor-Critic)** (We used)
-  * A2C (Synchronous Advantage Actor Critic)
-  * ACKTR (Actor Critic using Kronecker-Factored Trust Region)
+  - [ ] DDPG (Deep Deterministic Policy Gradient)
+  - [ ] ACER (Sample Efficient Actor-Critic with Experience Replay)
+  - [x] **A3C (Asynchronous Advantage Actor-Critic)**
+  - [ ] A2C (Synchronous Advantage Actor Critic)
+  - [ ] ACKTR (Actor Critic using Kronecker-Factored Trust Region)
 
 ## Learning Curve of Actor-Critic and A3C on Pong
 
