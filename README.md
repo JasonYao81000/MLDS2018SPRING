@@ -1,6 +1,5 @@
 # MLDS2018SPRING
-This course has four homeworks, group by group. 
-The four homeworks are as follows:
+This course has four homeworks, group by group. The four homeworks are as follows:
 
 # 1. [深度學習理論驗證](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw1)
 
