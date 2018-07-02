@@ -12,7 +12,7 @@
    2. [Deep Q Learning](#4-2-deep-q-learning)
       * [Introduction](#introduction-1)
       * [Baseline](#baseline-1)
-      * [Testing Policy Gradient](#testing-policy-gradient-1)
+      * [Testing Deep Q Learning](#testing-deep-q-learning)
       * [Rewards in 100 Episodes](#rewards-in-100-episodes)
       * [Learning Curve](#learning-curve-1)
    3. [Actor-Critic](#4-3-actor-critic)
