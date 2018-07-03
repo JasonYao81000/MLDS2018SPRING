@@ -9,7 +9,7 @@ The four homeworks are as follows:
 # Table of Contents
 <!--ts-->
    ## 1. [Deep Learning Theory](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw1)
-      ### 1. [Deep vs Shallow](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw1#1-deep-vs-shallow)
-      ### 2. [Optimization](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw1#2-optimization)
-      ### 3. [Generalization](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw1#3-generalization)
+      * [Deep vs Shallow](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw1#1-deep-vs-shallow)
+      * [Optimization](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw1#2-optimization)
+      * [Generalization](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw1#3-generalization)
 <!--te-->
