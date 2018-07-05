@@ -136,7 +136,7 @@ Mean: 16.466666666666665
   * We will unclip the reward when testing
 
 ## Testing Deep Q Learning
-`$ python3 test.py --test_dqn`
+`$ python3.6 test.py --test_dqn`
 
 ## Rewards in 100 Episodes
 ```
