@@ -140,12 +140,108 @@ Mean: 16.466666666666665
 
 ## Rewards in 100 Episodes
 ```
-ep 0, reward: 
-ep 1, reward: 
-...
-ep 99, reward: 
+ep 0, reward: 1.000000
+ep 1, reward: 8.000000
+ep 2, reward: 8.000000
+ep 3, reward: 361.000000
+ep 4, reward: 7.000000
+ep 5, reward: 10.000000
+ep 6, reward: 111.000000
+ep 7, reward: 4.000000
+ep 8, reward: 195.000000
+ep 9, reward: 54.000000
+ep 10, reward: 0.000000
+ep 11, reward: 310.000000
+ep 12, reward: 8.000000
+ep 13, reward: 0.000000
+ep 14, reward: 0.000000
+ep 15, reward: 8.000000
+ep 16, reward: 65.000000
+ep 17, reward: 51.000000
+ep 18, reward: 238.000000
+ep 19, reward: 0.000000
+ep 20, reward: 8.000000
+ep 21, reward: 65.000000
+ep 22, reward: 51.000000
+ep 23, reward: 238.000000
+ep 24, reward: 0.000000
+ep 25, reward: 8.000000
+ep 26, reward: 65.000000
+ep 27, reward: 51.000000
+ep 28, reward: 238.000000
+ep 29, reward: 0.000000
+ep 30, reward: 1.000000
+ep 31, reward: 8.000000
+ep 32, reward: 8.000000
+ep 33, reward: 361.000000
+ep 34, reward: 7.000000
+ep 35, reward: 1.000000
+ep 36, reward: 8.000000
+ep 37, reward: 8.000000
+ep 38, reward: 361.000000
+ep 39, reward: 7.000000
+ep 40, reward: 8.000000
+ep 41, reward: 65.000000
+ep 42, reward: 51.000000
+ep 43, reward: 238.000000
+ep 44, reward: 0.000000
+ep 45, reward: 10.000000
+ep 46, reward: 111.000000
+ep 47, reward: 4.000000
+ep 48, reward: 195.000000
+ep 49, reward: 54.000000
+ep 50, reward: 1.000000
+ep 51, reward: 8.000000
+ep 52, reward: 8.000000
+ep 53, reward: 361.000000
+ep 54, reward: 7.000000
+ep 55, reward: 0.000000
+ep 56, reward: 310.000000
+ep 57, reward: 8.000000
+ep 58, reward: 0.000000
+ep 59, reward: 0.000000
+ep 60, reward: 10.000000
+ep 61, reward: 111.000000
+ep 62, reward: 4.000000
+ep 63, reward: 195.000000
+ep 64, reward: 54.000000
+ep 65, reward: 8.000000
+ep 66, reward: 65.000000
+ep 67, reward: 51.000000
+ep 68, reward: 238.000000
+ep 69, reward: 0.000000
+ep 70, reward: 8.000000
+ep 71, reward: 65.000000
+ep 72, reward: 51.000000
+ep 73, reward: 238.000000
+ep 74, reward: 0.000000
+ep 75, reward: 10.000000
+ep 76, reward: 111.000000
+ep 77, reward: 4.000000
+ep 78, reward: 195.000000
+ep 79, reward: 54.000000
+ep 80, reward: 8.000000
+ep 81, reward: 65.000000
+ep 82, reward: 51.000000
+ep 83, reward: 238.000000
+ep 84, reward: 0.000000
+ep 85, reward: 10.000000
+ep 86, reward: 111.000000
+ep 87, reward: 4.000000
+ep 88, reward: 195.000000
+ep 89, reward: 54.000000
+ep 90, reward: 8.000000
+ep 91, reward: 65.000000
+ep 92, reward: 51.000000
+ep 93, reward: 238.000000
+ep 94, reward: 0.000000
+ep 95, reward: 10.000000
+ep 96, reward: 111.000000
+ep 97, reward: 4.000000
+ep 98, reward: 195.000000
+ep 99, reward: 54.000000
 Run 100 episodes
-Mean: 
+Mean: 73.16
 ```
 
 ## Learning Curve
