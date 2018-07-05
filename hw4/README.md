@@ -247,19 +247,19 @@ Mean: 73.16
 ## Learning Curve
 
 * Learning Curve of DQN
-<img src="" width="100%">
+<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/Breakout_DQN/reward_episode_none.png" width="100%">
 
 * Learning Curve of Dual DQN
-<img src="" width="100%">
+<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/Breakout_DQN/reward_episode_dual.png" width="100%">
 
 * Learning Curve of Double DQN
-<img src="" width="100%">
+<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/Breakout_DQN/reward_episode_double.png" width="100%">
 
 * Learning Curve of Double Dual DQN
-<img src="" width="100%">
+<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/Breakout_DQN/reward_episode_double_dual.png" width="100%">
 
 * Comparison of DQN, Dual DQN, Double DQN and Double Dual DQN
-<img src="" width="100%">
+<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/Breakout_DQN/reward_episode_4lines.png" width="100%">
 
 # 4-3. Actor-Critic
 
