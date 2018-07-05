@@ -85,7 +85,7 @@ if __name__ == "__main__":
     plt.plot(double_dual_recent_avg_reward, label='double dual')
     plt.legend(loc='upper left')
     plt.title('Reward v.s. Episode')
-    plt.ylabel('Average reward in last 100 episodes')
+    plt.ylabel('Average reward in last ' + str(recent_episode_num) + ' episodes')
     plt.xlabel('# of time steps')
     plt.savefig('reward_episode_double_dual.png')
 
@@ -94,7 +94,7 @@ if __name__ == "__main__":
     plt.plot(double_recent_avg_reward, label='double')
     plt.legend(loc='upper left')
     plt.title('Reward v.s. Episode')
-    plt.ylabel('Average reward in last 100 episodes')
+    plt.ylabel('Average reward in last ' + str(recent_episode_num) + ' episodes')
     plt.xlabel('# of time steps')
     plt.savefig('reward_episode_double.png')
     
@@ -103,7 +103,7 @@ if __name__ == "__main__":
     plt.plot(dual_recent_avg_reward, label='dual')
     plt.legend(loc='upper left')
     plt.title('Reward v.s. Episode')
-    plt.ylabel('Average reward in last 100 episodes')
+    plt.ylabel('Average reward in last ' + str(recent_episode_num) + ' episodes')
     plt.xlabel('# of time steps')
     plt.savefig('reward_episode_dual.png')
     
@@ -112,7 +112,7 @@ if __name__ == "__main__":
     plt.plot(none_recent_avg_reward, label='none')
     plt.legend(loc='upper left')
     plt.title('Reward v.s. Episode')
-    plt.ylabel('Average reward in last 100 episodes')
+    plt.ylabel('Average reward in last ' + str(recent_episode_num) + ' episodes')
     plt.xlabel('# of time steps')
     plt.savefig('reward_episode_none.png')
 
@@ -124,6 +124,6 @@ if __name__ == "__main__":
     plt.plot(none_recent_avg_reward, label='none')
     plt.legend(loc='upper left')
     plt.title('Reward v.s. Episode')
-    plt.ylabel('Average reward in last 100 episodes')
+    plt.ylabel('Average reward in last ' + str(recent_episode_num) + ' episodes')
     plt.xlabel('# of time steps')
     plt.savefig('reward_episode_4lines.png')
