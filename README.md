@@ -1,11 +1,15 @@
 # MLDS2018SPRING
 This course has four homeworks, group by group.
 The four homeworks are as follows:
-  1. Deep Learning Theory
-  2. Sequence-to-sequence Model
+## 1. Deep Learning Theory
+
+## 2. Sequence-to-sequence Model
+
       * Video Caption Generation: BLEU@1 = 0.7204
       * Chat-Bot: Perplexity = 11.83, Correlation Score = 0.53626
-  3. Deep Generative Model
+      
+## 3. Deep Generative Model
+
       * Image Generation: 100% (25/25) Pass Baseline
     
       |./gan-baseline/baseline_result_gan.png|
@@ -18,7 +22,8 @@ The four homeworks are as follows:
       |:------------:|:-------------------------------------:|
       |blue hair blue eyes<br><br><br>blue hair green eyes<br><br><br>blue hair red eyes<br><br><br>green hair blue eyes<br><br><br>green hair red eyes|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/gan-baseline/baseline_result_cgan.png" width="100%">|
       
-  4. Deep Reinforcement Learning
+## 4. Deep Reinforcement Learning
+
       * Policy Gradient: Mean Rewards in 30 Episodes = 16.466666666666665
       * Deep Q Learning: Mean Rewards in 100 Episodes = 73.16
 
