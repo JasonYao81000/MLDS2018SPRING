@@ -24,8 +24,7 @@ This course has four homeworks, group by group. The four homeworks are as follow
       * [Actor-Critic](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw4#4-3-actor-critic)
 <!--te-->
 
-# Four Homeworks
-The four homeworks are as follows:
+# Results of Four Homeworks
 
 ## 1. Deep Learning Theory
 
