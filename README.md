@@ -27,13 +27,16 @@ This course has four homeworks, group by group. The four homeworks are as follow
 # Results of Four Homeworks
 
 ## 1. Deep Learning Theory
+* [Report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/Report.pdf)
 
 ## 2. Sequence-to-sequence Model
-
 * Video Caption Generation: BLEU@1 = 0.7204
+* [hw2_1/report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw2/hw2_1/report.pdf)
 * Chat-Bot: Perplexity = 11.83, Correlation Score = 0.53626
+* [hw2_2/report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw2/hw2_2/report.pdf)
       
 ## 3. Deep Generative Model
+* [report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/reprot.pdf)
 
 * Image Generation: 100% (25/25) Pass Baseline
 
@@ -48,6 +51,6 @@ This course has four homeworks, group by group. The four homeworks are as follow
 |blue hair blue eyes<br><br><br>blue hair green eyes<br><br><br>blue hair red eyes<br><br><br>green hair blue eyes<br><br><br>green hair red eyes|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/gan-baseline/baseline_result_cgan.png" width="100%">|
       
 ## 4. Deep Reinforcement Learning
-
+* [report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/report.pdf)
 * Policy Gradient: Mean Rewards in 30 Episodes = 16.466666666666665
 * Deep Q Learning: Mean Rewards in 100 Episodes = 73.16
