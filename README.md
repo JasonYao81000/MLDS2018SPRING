@@ -19,6 +19,8 @@ The four homeworks are as follows:
       |blue hair blue eyes<br><br><br>blue hair green eyes<br><br><br>blue hair red eyes<br><br><br>green hair blue eyes<br><br><br>green hair red eyes|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/gan-baseline/baseline_result_cgan.png" width="100%">|
       
   4. Deep Reinforcement Learning
+      * Policy Gradient: Mean Rewards in 30 Episodes = 16.466666666666665
+      * Deep Q Learning: Mean Rewards in 100 Episodes = 73.16
 
 # Table of Contents
 <!--ts-->
