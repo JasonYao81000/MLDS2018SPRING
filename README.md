@@ -1,5 +1,10 @@
 # MLDS2018SPRING
-This course has four homeworks, group by group.
+   This course has four homeworks, group by group.
+   The four homeworks are as follows:
+      1. Deep Learning Theory
+      2. Sequence-to-sequence Model
+      3. Deep Generative Model
+      4. Deep Reinforcement Learning
 
 # Table of Contents
 <!--ts-->
