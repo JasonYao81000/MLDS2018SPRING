@@ -7,13 +7,17 @@ The four homeworks are as follows:
     * Chat-Bot: Perplexity = 11.83, Correlation Score = 0.53626
   3. Deep Generative Model
     * Image Generation: 100% (25/25) Pass Baseline
+    
       |./gan-baseline/baseline_result_gan.png|
       |:------------------------------------:|
       |<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/gan-baseline/baseline_result_gan.png" width="100%">|
+      
     * Text-to-Image Generation: 100% (25/25) Pass Baseline
-        | Testing Tags |./gan-baseline/baseline_result_cgan.png|
-        |:------------:|:-------------------------------------:|
-        |blue hair blue eyes<br><br><br>blue hair green eyes<br><br><br>blue hair red eyes<br><br><br>green hair blue eyes<br><br><br>green hair red eyes|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/gan-baseline/baseline_result_cgan.png" width="100%">|
+    
+      | Testing Tags |./gan-baseline/baseline_result_cgan.png|
+      |:------------:|:-------------------------------------:|
+      |blue hair blue eyes<br><br><br>blue hair green eyes<br><br><br>blue hair red eyes<br><br><br>green hair blue eyes<br><br><br>green hair red eyes|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/gan-baseline/baseline_result_cgan.png" width="100%">|
+      
   4. Deep Reinforcement Learning
 
 # Table of Contents
