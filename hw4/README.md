@@ -140,7 +140,7 @@ Mean: 16.466666666666665
 ## Testing Deep Q Learning
 `$ python3.6 test.py --test_dqn`
 
-<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/gif/Breakout.gif" width="50%">
+<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/gif/Breakout.gif" width="25%">
 
 ## Rewards in 100 Episodes
 ```
