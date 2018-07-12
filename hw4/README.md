@@ -56,7 +56,7 @@ tensorflow-gpu==1.6.0
 ## Testing Policy Gradient
 `$ python3.6 test.py --test_pg`
 
-<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/gif/Pong.gif" width="100%">
+<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/gif/Pong.gif" width="10%">
 
 ## Rewards in 30 Episodes
 ```
@@ -103,7 +103,7 @@ Mean: 16.466666666666665
 <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/avg_reward_pg_ppo.png" width="100%">
 
 * Comparison of Original PG and PG with PPO
-<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/avg_reward_pg_ppo_2lines.png" width="10%">
+<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/avg_reward_pg_ppo_2lines.png" width="100%">
 
 # 4-2. Deep Q Learning
 
