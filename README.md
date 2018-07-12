@@ -53,4 +53,9 @@ This course has four homeworks, group by group. The four homeworks are as follow
 ## 4. Deep Reinforcement Learning
 * [report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/report.pdf)
 * Policy Gradient: Mean Rewards in 30 Episodes = 16.466666666666665
+
+<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/gif/Pong.gif" width="50%">
+
 * Deep Q Learning: Mean Rewards in 100 Episodes = 73.16
+
+<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/gif/Breakout.gif" width="25%">
