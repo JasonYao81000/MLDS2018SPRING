@@ -27,14 +27,18 @@ This course has four homeworks, group by group. The four homeworks are as follow
 # Results of Four Homeworks
 
 ## 1. Deep Learning Theory
+* [Deep vs Shallow](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw1#1-deep-vs-shallow)
+* [Optimization](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw1#2-optimization)
+* [Generalization](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw1#3-generalization)
 * [Report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/Report.pdf)
 
 ## 2. Sequence-to-sequence Model
+* [Video caption generation](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw2/hw2_1#mlds2018springhw2hw2_1)
 * Video Caption Generation: BLEU@1 = 0.7204
-* [README](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw2/hw2_1#mlds2018springhw2hw2_1)
 * [hw2_1/report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw2/hw2_1/report.pdf)
+
+* [Chat-bot](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw2/hw2_2#mlds2018springhw2hw2_2)
 * Chat-Bot: Perplexity = 11.83, Correlation Score = 0.53626
-* [README](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw2/hw2_2#mlds2018springhw2hw2_2)
 * [hw2_2/report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw2/hw2_2/report.pdf)
       
 ## 3. Deep Generative Model
