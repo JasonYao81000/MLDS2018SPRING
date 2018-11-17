@@ -31,11 +31,16 @@ This course has four homeworks, group by group. The four homeworks are as follow
 
 ## 2. Sequence-to-sequence Model
 * Video Caption Generation: BLEU@1 = 0.7204
+* [README](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw2/hw2_1#mlds2018springhw2hw2_1)
 * [hw2_1/report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw2/hw2_1/report.pdf)
 * Chat-Bot: Perplexity = 11.83, Correlation Score = 0.53626
+* [README](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw2/hw2_2#mlds2018springhw2hw2_2)
 * [hw2_2/report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw2/hw2_2/report.pdf)
       
 ## 3. Deep Generative Model
+* [Image Generation](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw3#3-1-image-generation)
+* [Text-to-Image Generation](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw3#3-2-text-to-image-generation)
+* [Style Transfer](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw3#3-3-style-transfer)
 * [report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/reprot.pdf)
 
 * Image Generation: 100% (25/25) Pass Baseline
@@ -51,6 +56,9 @@ This course has four homeworks, group by group. The four homeworks are as follow
 |blue hair blue eyes<br><br><br>blue hair green eyes<br><br><br>blue hair red eyes<br><br><br>green hair blue eyes<br><br><br>green hair red eyes|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/gan-baseline/baseline_result_cgan.png" width="100%">|
       
 ## 4. Deep Reinforcement Learning
+* [Policy Gradient](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw4#4-1-policy-gradient)
+* [Deep Q Learning](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw4#4-2-deep-q-learning)
+* [Actor-Critic](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw4#4-3-actor-critic)
 * [report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/report.pdf)
 * Policy Gradient: Mean Rewards in 30 Episodes = 16.466666666666665
 
