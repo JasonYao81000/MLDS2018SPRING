@@ -27,47 +27,65 @@ This course has four homeworks, group by group. The four homeworks are as follow
 # Results of Four Homeworks
 
 ## 1. Deep Learning Theory
-* [Deep vs Shallow](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw1#1-deep-vs-shallow)
-* [Optimization](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw1#2-optimization)
-* [Generalization](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw1#3-generalization)
 * [Report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw1/Report.pdf)
 
-## 2. Sequence-to-sequence Model
-* [Video caption generation](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw2/hw2_1#mlds2018springhw2hw2_1)
-* Video Caption Generation: BLEU@1 = 0.7204
-* [hw2_1/report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw2/hw2_1/report.pdf)
+### 1.1 Deep vs Shallow
+   * [README](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw1#1-deep-vs-shallow)
+   
+### 1.2 Optimization
+   * [README](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw1#2-optimization)
+   
+### 1.3 Generalization
+   * [README](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw1#3-generalization)
 
-* [Chat-bot](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw2/hw2_2#mlds2018springhw2hw2_2)
-* Chat-Bot: Perplexity = 11.83, Correlation Score = 0.53626
-* [hw2_2/report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw2/hw2_2/report.pdf)
+## 2. Sequence-to-sequence Model
+   
+### 2.1 Video caption generation
+   * BLEU@1 = 0.7204
+   * [README](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw2/hw2_1#mlds2018springhw2hw2_1)
+   * [hw2_1/report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw2/hw2_1/report.pdf)
+
+### 2.2 Chat-bot
+   * Perplexity = 11.83, Correlation Score = 0.53626
+   * [README](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw2/hw2_2#mlds2018springhw2hw2_2)
+   * [hw2_2/report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw2/hw2_2/report.pdf)
       
 ## 3. Deep Generative Model
-* [Image Generation](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw3#3-1-image-generation)
-* [Text-to-Image Generation](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw3#3-2-text-to-image-generation)
-* [Style Transfer](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw3#3-3-style-transfer)
 * [report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/reprot.pdf)
 
-* Image Generation: 100% (25/25) Pass Baseline
+### 3.1 Image Generation
+   * [README](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw3#3-1-image-generation)
+   * Image Generation: 100% (25/25) Pass Baseline
 
-|./gan-baseline/baseline_result_gan.png|
-|:------------------------------------:|
-|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/gan-baseline/baseline_result_gan.png" width="100%">|
+   |./gan-baseline/baseline_result_gan.png|
+   |:------------------------------------:|
+   |<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/gan-baseline/baseline_result_gan.png" width="100%">|
+   
+### 3.2 Text-to-Image Generation
+   * [README](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw3#3-2-text-to-image-generation)
+   * Text-to-Image Generation: 100% (25/25) Pass Baseline
 
-* Text-to-Image Generation: 100% (25/25) Pass Baseline
+   | Testing Tags |./gan-baseline/baseline_result_cgan.png|
+   |:------------:|:-------------------------------------:|
+   |blue hair blue eyes<br><br><br>blue hair green eyes<br><br><br>blue hair red eyes<br><br><br>green hair blue eyes<br><br><br>green hair red eyes|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/gan-baseline/baseline_result_cgan.png" width="100%">|
 
-| Testing Tags |./gan-baseline/baseline_result_cgan.png|
-|:------------:|:-------------------------------------:|
-|blue hair blue eyes<br><br><br>blue hair green eyes<br><br><br>blue hair red eyes<br><br><br>green hair blue eyes<br><br><br>green hair red eyes|<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw3/gan-baseline/baseline_result_cgan.png" width="100%">|
-      
+### 3.3 Style Transfer
+   * [README](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw3#3-3-style-transfer)
+     
 ## 4. Deep Reinforcement Learning
-* [Policy Gradient](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw4#4-1-policy-gradient)
-* [Deep Q Learning](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw4#4-2-deep-q-learning)
-* [Actor-Critic](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw4#4-3-actor-critic)
 * [report.pdf](https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/report.pdf)
-* Policy Gradient: Mean Rewards in 30 Episodes = 16.466666666666665
 
-<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/gif/Pong.gif" width="50%">
+### 4.1 Policy Gradient
+   * [README](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw4#4-1-policy-gradient)
+   * Policy Gradient: Mean Rewards in 30 Episodes = 16.466666666666665
 
-* Deep Q Learning: Mean Rewards in 100 Episodes = 73.16
+   <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/gif/Pong.gif" width="50%">
+   
+### 4.2 Deep Q Learning
+   * [README](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw4#4-2-deep-q-learning)
+   * Deep Q Learning: Mean Rewards in 100 Episodes = 73.16
 
-<img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/gif/Breakout.gif" width="25%">
+   <img src="https://github.com/JasonYao81000/MLDS2018SPRING/blob/master/hw4/results/gif/Breakout.gif" width="25%">
+
+### 4.3 Actor-Critic
+   * [README](https://github.com/JasonYao81000/MLDS2018SPRING/tree/master/hw4#4-3-actor-critic)
