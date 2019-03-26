@@ -1,9 +1,14 @@
 # MLDS2018SPRING
+
+Machine Learning and having it deep and structured (MLDS) at NTU 2018 Spring.
+
 This course has four homeworks, group by group. The four homeworks are as follows:
    1. Deep Learning Theory
    2. Sequence-to-sequence Model
    3. Deep Generative Model
    4. Deep Reinforcement Learning
+
+Browse this [course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS18.html) for more details.
 
 # Table of Contents
 <!--ts-->
